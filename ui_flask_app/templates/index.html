@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vulnerability Scanner</title>
+</head>
+<body style="font-family: Arial; padding: 30px;">
+    <h1>Web Vulnerability Scanner</h1>
+    <form method="POST">
+        <label>Enter Target URL:</label><br><br>
+        <input type="text" name="url" style="width: 400px;" required>
+        <button type="submit">Start Scan</button>
+    </form>
+
+    {% if result %}
+        <h2>Scan Results:</h2>
+        <pre>{{ result }}</pre>
+    {% endif %}
+</body>
+</html>

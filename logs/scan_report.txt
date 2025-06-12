@@ -1,0 +1,88 @@
+───────────────────────────────────────────────────────────────
+Web Application Vulnerability Scan Report
+───────────────────────────────────────────────────────────────
+
+📅 Scan Date: 11 June 2025
+🎯 Target URL: http://testphp.vulnweb.com
+
+───────────────────────────────────────────────────────────────
+🔍 Vulnerabilities Detected
+───────────────────────────────────────────────────────────────
+
+🛑 Cross-Site Scripting (XSS) Detected On:
+------------------------------------------
+- /                      (Homepage)
+- /index.php
+- /categories.php
+- /artists.php
+- /disclaimer.php
+- /cart.php
+- /guestbook.php
+- /login.php
+- /signup.php
+- /userinfo.php
+- /artists.php?artist=1
+- /listproducts.php?artist=1
+- /product.php?pic=1
+- /product.php?pic=2
+- /product.php?pic=3
+- /product.php?pic=4
+- /product.php?pic=5
+
+Payloads Used (examples):
+- `<script>alert(1)</script>`
+- `"><svg/onload=alert(1)>`
+- `'"><img src=x onerror=alert(1)>`
+
+✅ Total XSS Hits: 54
+
+───────────────────────────────────────────────────────────────
+
+💥 SQL Injection (SQLi) Detected On:
+------------------------------------
+- /                      (Homepage)
+- /index.php
+- /categories.php
+- /artists.php
+- /disclaimer.php
+- /cart.php
+- /guestbook.php
+- /login.php
+- /signup.php
+- /userinfo.php
+- /artists.php?artist=1
+- /listproducts.php?artist=1
+- /product.php?pic=1
+- /product.php?pic=2
+- /product.php?pic=3
+- /product.php?pic=4
+- /product.php?pic=5
+
+Payloads Used (examples):
+- `' OR 1=1 --`
+- `" OR "1"="1`
+- `admin' --`
+
+✅ Total SQLi Hits: 51
+
+───────────────────────────────────────────────────────────────
+📊 Scan Summary
+───────────────────────────────────────────────────────────────
+
+🔸 Total Pages Scanned     : ~17
+🔸 Total XSS Injections    : 54
+🔸 Total SQLi Injections   : 51
+🔸 Vulnerable URLs Found   : 17
+🔸 Severity Summary:
+    - High Severity (Multiple Vectors on Same URL): ✔️
+    - Real-World Exploitable Patterns Present     : ✔️
+
+Tools Used: Python, BeautifulSoup, Requests, Flask
+
+Raw logs: stored in `logs/vuln_log.txt`
+
+───────────────────────────────────────────────────────────────
+Prepared by: Kunal Bhenwal
+Project: Web Application Vulnerability Scanner (Internship Project)
+───────────────────────────────────────────────────────────────
+
